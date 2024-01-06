@@ -8,6 +8,7 @@ note right SSM : publish
 SSM -> APP: mechStatus
 note over APP : onMectSatus()\n =>configureSesame2Cell() \nListCell顯示 \n(icon:藍芽/wifi/電量 | view:小球)
 
+
 APP -> Server: 
 
 @enduml
