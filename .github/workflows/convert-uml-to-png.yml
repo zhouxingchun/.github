@@ -5,6 +5,8 @@ on: # 触发条件
   push:
     paths:
       - '**/*.uml'
+      - '**/*.puml'
+
 
 jobs:
   convert:
