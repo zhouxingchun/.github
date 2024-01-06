@@ -4,7 +4,6 @@ name: Convert UML to PNG # Actions 名字
 on: # 触发条件
   push:
     paths:
-      - '**/*.uml'
       - '**/*.puml'
 
 
